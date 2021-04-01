@@ -1,0 +1,98 @@
+body{
+  background-color: lightblue;
+  background-image: url("./todolist.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  alignment: center;
+  padding-top: 40px;
+ 
+}
+.Todo h2{
+  text-align: center;
+  font-family: cursive;
+  padding-top: 8px;
+  padding-bottom: 3px;
+  color: #bf0f1c;
+  padding-right: 17px;
+}
+.Todo{
+  background-color: #e7d9f1;
+  min-height: 500px;
+  width: 550px;
+  margin: 150px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-size: 80px;
+  background-repeat: no-repeat;
+}
+#todo-list input{
+  background-color: rgb(163, 145, 224);
+  border: 0;
+  width: 330px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+#todo-list input::placeholder{
+  color: rgba(244, 231, 250, 0.98);
+}
+#todo-list button{
+   background-color: #f02323;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   display: inline-block;
+   font-size: 18px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+
+#btnEdit{
+  background-color: #41ba32;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+#btnDone{
+  background-color: #ba2b29;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+#btnDelete{
+  background-color: #baa526;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 10px;
+}
+.container{
+  align-content: center;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.strikeThrough {
+  text-decoration: line-through;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
